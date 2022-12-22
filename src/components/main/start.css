@@ -1,0 +1,64 @@
+/*Banner*/
+.logo__banner {
+    max-width: 100%;
+    width: 100%;
+    height: 250px;
+    margin-top: 1rem;
+}
+
+/*Titulo principal*/
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-top: 2rem;
+    background: #CCCCD4;
+}
+
+.title h1 {
+    font-size: 3rem;
+    max-width: 100%;
+    font-family: 'Rubik Vinyl', cursive;
+}
+
+.promo {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 550px) {
+    li a {
+        font-size: 15px;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    li a {
+        font-size: 10px;
+    }
+
+    .title h1 {
+        font-size: 20px;
+    }
+}
